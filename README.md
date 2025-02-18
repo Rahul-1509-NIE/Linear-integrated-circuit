@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c9fe223-99b9-4eef-831c-96188496d885)![image](https://github.com/user-attachments/assets/4f4ab2ba-3a30-472d-bf0b-ff70b7126eda)# Experiment - 1
+# Experiment - 1
 Question: Given the power as P=100µw, Perform AC, DC and Transient analysis for the given circuit design by using Ltspice simulator.
 # Circuit diagram -1
 ![image](https://github.com/user-attachments/assets/586bf188-a39f-4404-946b-8fd7af3d7ab9)
