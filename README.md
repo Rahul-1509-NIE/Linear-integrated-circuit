@@ -76,7 +76,10 @@ Change input as
 
 ![image](https://github.com/user-attachments/assets/617d833b-61f0-4289-9e03-58aa863a3aea)
 
-Change the length and width of the NMOS and PMOS 
+
+
+Change the length and width of the NMOS and PMOS
+
 ![image](https://github.com/user-attachments/assets/502be2df-ebd5-4fe8-9bf3-3e7e2339a684)
 
 ![image](https://github.com/user-attachments/assets/f67cc05e-8851-43f5-9ede-5f4a954b26ba)
