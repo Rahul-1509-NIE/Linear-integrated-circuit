@@ -1,4 +1,4 @@
-# Experiment - 1
+![image](https://github.com/user-attachments/assets/8c9fe223-99b9-4eef-831c-96188496d885)![image](https://github.com/user-attachments/assets/4f4ab2ba-3a30-472d-bf0b-ff70b7126eda)# Experiment - 1
 Question: Given the power as P=100µw, Perform AC, DC and Transient analysis for the given circuit design by using Ltspice simulator.
 # Circuit diagram -1
 ![image](https://github.com/user-attachments/assets/586bf188-a39f-4404-946b-8fd7af3d7ab9)
@@ -33,8 +33,7 @@ Apply an amplitude of 50mV
 Use a frequency of 1kHz
 
 5. AC Analysis
-Finally, let’s set up the AC analysis:
-Ensure you add the library path
+add the library path
 Use the command .ac dec 20 .1 1T to set up your AC analysis
 Run the simulation to analyze the frequency response
 
@@ -80,7 +79,41 @@ Change the length and width of the NMOS and PMOS
 # DC Analysis
 Steps for finding DC analysis is Go to simulate in LTspice, Select the dc output print and the run the simulation
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8dae782a-a83c-4881-8bc3-2e60171c75ff)
+
+# AC Analysis
+Change the parameter as shown below
+
+![image](https://github.com/user-attachments/assets/21353781-b747-4f0a-8ab5-6e52be261e88)
+
+Waveform of ac analysis
+
+![image](https://github.com/user-attachments/assets/240577fe-04ae-428e-b057-577bc0014cc1)
+
+# Transient analysis
+ Go to the simulation settings in LTspice, set the stop time to 1ms, and run the simulation
+ The waveform of Transient Analysis
+
+![image](https://github.com/user-attachments/assets/a2e3affc-a4c6-4ea7-80e6-6eb5808b0104)
+
+# Result
+
+By adjusting the sizes of the MOSFETs, M1 and M2, we achieved the desired current: M1 with a length of 500nm and width of 950nm, and M2 with a length of 300nm and width of 1020nm. The circuit had a gain of 3.8 dB and a phase shift close to 180 degrees, aligning with our expectations. It also showed stable and reliable performance when responding to changes in input
+
+# Inference
+The DC sweep analysis determined the input DC voltage.
+By adjusting the MOSFET sizes, we calculated the drain current during the simulation.
+Both M1 and M2 were modified to achieve the required drain current.
+For the AC analysis, the AC amplitude was set to 1 to ensure accurate evaluation.
+The DC sweep also displayed the Voltage Transfer Characteristic (VTC) curve at the output
+
+
+
+
+
+
+
+
 
 
 
