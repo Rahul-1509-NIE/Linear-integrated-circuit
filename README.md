@@ -63,6 +63,31 @@ The drain current indicates if the MOSFET is in the saturation region, influence
 ![image](https://github.com/user-attachments/assets/cc783f44-f45a-4d29-ba80-21881dfc5061)
 
 # Procedure
+DC Sweep analysis
+Go to the simulation settings, select a DC sweep analysis, input the required values as specified, and run the simulation.
+![image](https://github.com/user-attachments/assets/6d74eb9e-71ec-4853-b530-0befc30d568f)
+
+VTC curve
+![image](https://github.com/user-attachments/assets/b9ec0177-884a-4178-9ec6-466c114672bc)
+
+Change input as
+![image](https://github.com/user-attachments/assets/617d833b-61f0-4289-9e03-58aa863a3aea)
+
+Change the length and width of the NMOS and PMOS 
+![image](https://github.com/user-attachments/assets/502be2df-ebd5-4fe8-9bf3-3e7e2339a684)
+![image](https://github.com/user-attachments/assets/f67cc05e-8851-43f5-9ede-5f4a954b26ba)
+
+# DC Analysis
+Steps for finding DC analysis is Go to simulate in LTspice, Select the dc output print and the run the simulation
+
+![Uploading image.png…]()
+
+
+
+
+
+
+
 
 
 
