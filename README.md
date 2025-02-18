@@ -38,7 +38,8 @@ Use the command .ac dec 20 .1 1T to set up your AC analysis
 Run the simulation to analyze the frequency response
 
 # DC analysis
-![image](https://github.com/user-attachments/assets/1270f880-6629-4c96-acb3-e4b8d82fc3b6)
+![image](https://github.com/user-attachments/assets/4865be51-2e38-4479-b764-5bd6b6cfd749)
+
 Steps for finding DC analysis is Go to simulate in LTspice, Select the dc output print and the run the simulation
 # AC analysis
 ![image](https://github.com/user-attachments/assets/51d4eb17-4c62-4214-99b9-4b4e297456cb)
