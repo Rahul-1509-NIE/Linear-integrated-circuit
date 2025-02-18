@@ -43,9 +43,10 @@ Run the simulation to analyze the frequency response
 Steps for finding DC analysis is Go to simulate in LTspice, Select the dc output print and the run the simulation
 # AC analysis
 ![image](https://github.com/user-attachments/assets/51d4eb17-4c62-4214-99b9-4b4e297456cb)
- Waveform of AC analysis of given circuit
 
- ![image](https://github.com/user-attachments/assets/914c0ea8-1b77-4e91-b1ce-cce7f8117d57)
+Waveform of AC analysis of given circuit
+
+![image](https://github.com/user-attachments/assets/914c0ea8-1b77-4e91-b1ce-cce7f8117d57)
 
  # Transient Analysis
  Go to the simulation settings in LTspice, set the stop time to 1ms, and run the simulation
