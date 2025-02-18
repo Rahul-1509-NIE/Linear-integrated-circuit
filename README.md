@@ -1,6 +1,6 @@
 # Experiment - 1
 Question: Given the power as P=100µw, Perform AC, DC and Transient analysis for the given circuit design by using Ltspice simulator.
-# Circuit diagram 
+# Circuit diagram -1
 ![image](https://github.com/user-attachments/assets/586bf188-a39f-4404-946b-8fd7af3d7ab9)
 ## We used LTspice for Creating circuit diagram
 Here 2 voltage sources and 1 mosfet and 1 resistor for buildiong the circuit
@@ -37,3 +37,36 @@ Finally, let’s set up the AC analysis:
 Ensure you add the library path
 Use the command .ac dec 20 .1 1T to set up your AC analysis
 Run the simulation to analyze the frequency response
+
+# DC analysis
+![image](https://github.com/user-attachments/assets/1270f880-6629-4c96-acb3-e4b8d82fc3b6)
+Steps for finding DC analysis is Go to simulate in LTspice, Select the dc output print and the run the simulation
+# AC analysis
+![image](https://github.com/user-attachments/assets/51d4eb17-4c62-4214-99b9-4b4e297456cb)
+ Waveform of AC analysis of given circuit
+
+ ![image](https://github.com/user-attachments/assets/914c0ea8-1b77-4e91-b1ce-cce7f8117d57)
+
+ # Transient Analysis
+ Go to the simulation settings in LTspice, set the stop time to 1ms, and run the simulation
+ The waveform of Transient Analysis
+ ![image](https://github.com/user-attachments/assets/0eb4b7d9-ade9-49c7-9a20-eb55b4ceb80c)
+
+# Result
+The DC analysis showed a drain current of 55.5 µA 
+with NMOS size: Length = 175nm, Width = 178nm.
+
+# Inference 
+The drain current indicates if the MOSFET is in the saturation region, influenced by the gate-to-source voltage (VGS). Coupling and bypass capacitors affect frequency response, while the circuit’s gain depends on the MOSFET's characteristics. Adding necessary library files is crucial for simulation, and adjusting the MOSFET’s dimensions fine-tunes the drain current. Understanding these factors optimizes circuit performance.
+
+# Circuit Diagram-2
+![image](https://github.com/user-attachments/assets/cc783f44-f45a-4d29-ba80-21881dfc5061)
+
+# Procedure
+
+
+
+
+
+
+
