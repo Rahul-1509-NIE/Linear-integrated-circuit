@@ -97,9 +97,6 @@ Change specification of the Sources.
 
 
 
-## Gain Calculation
-
-![image](https://github.com/user-attachments/assets/05840b9f-46d1-431a-aec8-74da6aeb546b)
 
 ## AC analysis
 
@@ -139,9 +136,7 @@ Change specification of the Sources.
 
 
 
-## Gain Calculation
 
-![image](https://github.com/user-attachments/assets/05840b9f-46d1-431a-aec8-74da6aeb546b)
 
 ## AC analysis
 ![image](https://github.com/user-attachments/assets/5f95976b-3974-44e6-a278-a12a4efcc910)
