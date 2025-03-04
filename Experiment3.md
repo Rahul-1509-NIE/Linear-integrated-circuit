@@ -167,7 +167,8 @@ We observed simulation output with given specification it is almost matched
 
 For Circuit 2 replaced resister by current source, For Circuit 3 replaced Current Source by Mosfet. By this we conclude that MOSFET can also used as current source
 
-we compared theoretical differential amplifier with practical .
+we compared theoretical differential amplifier with practical , and analysed the working of differential amplifier.
+Observed the importance W/L ratio in mosfet and effect of W/L ratio in Drain current 
 
 
 
