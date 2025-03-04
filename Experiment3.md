@@ -70,6 +70,8 @@ Gain in AC analysis is 10.5dB , The calculation of gain in Transient analysis is
 
 ## Circuit Diagram-2  (Consider Current source )
 ![image](https://github.com/user-attachments/assets/a8076eda-5ba7-4450-bc13-59c3b9edf7cb)
+## Design
+![image](https://github.com/user-attachments/assets/03afdb6f-d16c-4940-8f2f-bd22a561effb)
 
 Circuit is Designed as per given power and other parameters as mentioned in problem statement and circuit design is mentioned in design 
 ## DC Analysis
@@ -109,6 +111,8 @@ Gain in AC analysis is 10.5dB , The calculation of gain in Transient analysis is
 ## Circuit Diagram-3 (Consider MOSFET As Current Source)
 ![image](https://github.com/user-attachments/assets/b713411d-9ee0-49cf-8f5c-fd312c8e76f8)
 
+## Design
+![image](https://github.com/user-attachments/assets/be1b57ec-598c-48f5-866a-a4b86886d4c3)
 
 Circuit is Designed as per given power and other parameters as mentioned in problem statement and circuit design is mentioned in design 
 ## DC Analysis
@@ -148,6 +152,7 @@ Gain in AC analysis is 10.5dB , The calculation of gain in Transient analysis is
 In differencial Amplifier Specification Vdd=3.2V , P<=2.8mw, Vicm=1.6v , Vocm=1.7v , Vp=0.6v
 DC analysis  For W=2.52um , L=180nm We observed the Required Output By comparing the DC operationg point and given specification
 Transient Analysis , We Calculated gain and its is compared with AC analysis output waveform.
+For Circuit 2 replaced resister by current source, For Circuit 3 replaced Current Source by Mosfet.
 All the design specification is appeared in Simulation
 
 ## Inference 
@@ -159,6 +164,8 @@ Proper biasing ensures stable operation, and any variations in resistor values o
 
 Practical Limitations – Small deviations from theoretical values were observed due to component tolerances, non-ideal transistor characteristics, and power supply variations.
 We observed simulation output with given specification it is almost matched
+
+For Circuit 2 replaced resister by current source, For Circuit 3 replaced Current Source by Mosfet. By this we conclude that MOSFET can also used as current source
 
 we compared theoretical differential amplifier with practical .
 
